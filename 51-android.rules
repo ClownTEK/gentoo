@@ -1,0 +1,4 @@
+# adb protocol on C8813Q
+SUBSYSTEM=="usb", ATTR{idVendor}=="12d1", ATTR{idProduct}=="1038", MODE="0600", OWNER="<ibrother>"
+# fastboot protocol on C8813Q
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", ATTR{idProduct}=="d00d", MODE="0666", OWNER="<ibrother>"
