@@ -8,7 +8,6 @@ app-portage/gentoolkit
 app-shells/bash-completion
 app-shells/zsh
 app-shells/zsh-completion
-dev-java/oracle-jdk-bin
 dev-libs/cloog
 dev-libs/cloog-ppl
 dev-util/android-tools
@@ -16,6 +15,8 @@ dev-vcs/git
 kde-base/ark
 kde-base/dolphin
 kde-base/gwenview
+kde-base/kate
+kde-base/kde-base-artwork
 kde-base/kde-l10n
 kde-base/kdebase-cursors
 kde-base/kdebase-startkde
@@ -25,17 +26,21 @@ kde-base/kmix
 kde-base/konsole
 kde-base/ksnapshot
 kde-base/kstyles
+kde-base/ksystraycmd
 kde-base/ktouch
 kde-base/okular
 kde-base/powerdevil
 kde-misc/plasma-nm
+media-fonts/inconsolata
+media-fonts/wqy-microhei
 media-sound/alsa-utils
 media-sound/mpd
 media-sound/ncmpcpp
 media-video/mplayer
+media-video/smplayer
 net-misc/axel
 net-misc/dhcpcd
-net-p2p/qbittorrent
+net-p2p/ktorrent
 sys-apps/usbutils
 sys-boot/grub
 sys-boot/os-prober
@@ -44,5 +49,6 @@ sys-fs/ntfs3g
 sys-kernel/genkernel
 sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
-www-client/google-chrome:stable
+www-client/google-chrome
 x11-base/xorg-server
+x11-themes/oxygen-gtk

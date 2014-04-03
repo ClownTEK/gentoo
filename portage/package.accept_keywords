@@ -1,7 +1,7 @@
 dev-libs/isl ~amd64
 dev-libs/cloog ~amd64
-www-client/google-chrome:stable
 dev-util/android-tools ~amd64
 kde-misc/plasma-nm ~amd64
 net-libs/libnm-qt ~amd64
 net-misc/networkmanager ~amd64
+www-client/google-chrome
