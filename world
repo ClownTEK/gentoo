@@ -48,7 +48,7 @@ sys-fs/btrfs-progs
 sys-fs/ntfs3g
 sys-kernel/genkernel
 sys-kernel/gentoo-sources
-sys-kernel/linux-firmware
 www-client/google-chrome
 x11-base/xorg-server
+x11-drivers/radeon-ucode
 x11-themes/oxygen-gtk
