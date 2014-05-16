@@ -1,5 +1,7 @@
 app-admin/metalog
 app-admin/sudo
+app-editors/emacs
+app-editors/kile
 app-editors/vim
 app-i18n/fcitx
 app-laptop/laptop-mode-tools
@@ -10,12 +12,12 @@ app-shells/zsh
 app-shells/zsh-completion
 dev-libs/cloog
 dev-libs/cloog-ppl
+dev-texlive/texlive-xetex
 dev-util/android-tools
 dev-vcs/git
 kde-base/ark
 kde-base/dolphin
 kde-base/gwenview
-kde-base/kate
 kde-base/kde-base-artwork
 kde-base/kde-l10n
 kde-base/kdebase-cursors
@@ -40,6 +42,7 @@ media-video/mplayer
 media-video/smplayer
 net-misc/axel
 net-misc/dhcpcd
+net-misc/ntp
 net-p2p/ktorrent
 sys-apps/usbutils
 sys-boot/grub

@@ -1,2 +1,5 @@
+app-editors/emacs gtk sound toolkit-scroll-bars xft
 app-text/ghostscript-gpl cups
+app-text/texlive-core xetex
 net-misc/networkmanager dhcpcd introspection nss ppp resolvconf
+www-client/chromium aura
