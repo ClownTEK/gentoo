@@ -1,4 +1,4 @@
-app-admin/metalog
+app-admin/rsyslog
 app-admin/sudo
 app-editors/emacs
 app-editors/kile
@@ -42,7 +42,6 @@ media-video/mplayer
 media-video/smplayer
 net-misc/axel
 net-misc/dhcpcd
-net-misc/ntp
 net-p2p/ktorrent
 sys-apps/usbutils
 sys-boot/grub
