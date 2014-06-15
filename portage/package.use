@@ -3,4 +3,3 @@ app-text/ghostscript-gpl cups
 app-text/texlive-core xetex
 media-libs/freetype -bindist
 net-misc/networkmanager resolvconf
-www-client/chromium aura
