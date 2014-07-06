@@ -1,6 +1,7 @@
 app-editors/emacs gtk sound toolkit-scroll-bars xft
 app-text/ghostscript-gpl cups
 app-text/texlive-core xetex
+mail-client/mutt -berkdb gpg imap mbox nntp sidebar smime smtp
 media-libs/freetype -bindist
 media-video/ffmpeg threads
 net-misc/networkmanager resolvconf
