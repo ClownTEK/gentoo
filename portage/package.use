@@ -2,4 +2,5 @@ app-editors/emacs gtk sound toolkit-scroll-bars xft
 app-text/ghostscript-gpl cups
 app-text/texlive-core xetex
 media-libs/freetype -bindist
+media-video/ffmpeg threads
 net-misc/networkmanager resolvconf
