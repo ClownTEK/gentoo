@@ -34,6 +34,7 @@ kde-base/okular
 kde-base/powerdevil
 kde-misc/plasma-nm
 mail-client/mutt
+mail-mta/msmtp
 media-fonts/inconsolata
 media-fonts/wqy-microhei
 media-sound/alsa-utils
