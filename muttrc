@@ -1,15 +1,26 @@
 # 设置发信地址和用户名
 set from = "ibrother.linux@gmail.com"
 set realname = "ibrother"
+set use_from = yes
 
 # 设置Gmail帐户和密码
 set imap_user = "ibrother.linux@gmail.com"
-set imap_pass = "password"
+set imap_pass = "yourpassword"
 
 # 设置远程服务器文件夹
 set folder = "imaps://imap.gmail.com:993"
 set spoolfile = "+INBOX"
+mailboxes = +INBOX
 set postponed = "+[Gmail]/Drafts"
+
+# 允许mutt自动创建一个新的imap连接
+unset imap_passive
+
+# imap连接保持时间
+set imap_keepalive = 300
+
+# 检查新邮件间隔时间
+set mail_check = 120
 
 # 本地缓存目录
 set header_cache = ~/.mutt/cache/headers
@@ -19,11 +30,15 @@ set message_cachedir = ~/.mutt/cache/bodies
 set certificate_file = /etc/ssl/certs/ca-certificates.crt
 
 # 设置smtp
-set smtp_url = "smtp://ibrother.linux@gmail.com@smtp.gmail.com:587/"
-set smtp_pass = "password"
+#set smtp_url = "smtp://ibrother.linux@gmail.com@smtp.gmail.com:587/"
+#set smtp_pass = "yourpassword"
+#set ssl_starttls = yes
 
 # 使用msmtp
 set sendmail = "/usr/bin/msmtp -a gmail"
+
+# 不保存发送的邮件
+unset record
 
 # 回信不包含邮件头
 set header = no
