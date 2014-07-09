@@ -31,11 +31,11 @@ set certificate_file = /etc/ssl/certs/ca-certificates.crt
 
 # 设置smtp
 #set smtp_url = "smtp://ibrother.linux@gmail.com@smtp.gmail.com:587/"
-#set smtp_pass = "yourpassword"
+#set smtp_pass = "luohao1993223"
 #set ssl_starttls = yes
 
 # 使用msmtp
-set sendmail = "/usr/bin/msmtp -a gmail"
+set sendmail = "/usr/bin/msmtp"
 
 # 不保存发送的邮件
 unset record
@@ -77,9 +77,6 @@ set fast_reply
 # 删除邮件自动移动光标
 set resolve = yes
 
-# 设置发件箱保存文件
-set record = "~/.mail/=sent-mail-`date +%Y-%m`"
-
 # 设置编码，保持和终端一致
 set charset = "utf-8"
 
@@ -98,4 +95,7 @@ subscribe shlug@googlegroups.com
 subscribe gentoo-user@lists.gentoo.org
 
 # 使用solarized配色方案
-source ~/mutt-colors-solarized-dark-256.muttrc
+source ~/.mutt/mutt-colors-solarized/mutt-colors-solarized-dark-256.muttrc
+
+# 使用gpg加密
+source ~/.mutt/gpg.rc
