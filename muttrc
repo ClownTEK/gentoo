@@ -56,6 +56,7 @@ set indent_str = "> "
 
 # 设置邮件头
 my_hdr From: ibrother.linux@gmail.com
+my_hdr X-Operating-System: `uname -s`, kernel `uname -r`
 
 # 邮件打分
 score "~N" +4
@@ -83,7 +84,7 @@ set resolve = yes
 set charset = "utf-8"
 
 # 发信使用的字符集
-set send_charset = "us-ascii:iso-8859-1:gb18030:utf-8"
+set send_charset = "us-ascii:iso-8859-1:utf-8:gb18030"
 
 # 是否编辑邮件头
 set edit_headers = no
@@ -97,10 +98,17 @@ set editor="vim -c 'set syntax=mail ft=mail'"
 # 只滚动一行而不是一页
 set menu_scroll = yes
 
+# 设置地址簿
+set alias_file = "~/.mutt/aliases"
+set sort_alias = alias
+set reverse_alias = yes
+source $alias_file
+
 # 告知mutt哪些是邮件列表
 subscribe ustc_lug@googlegroups.com
 subscribe shlug@googlegroups.com
 subscribe gentoo-user@lists.gentoo.org
+subscribe ahutlug@googlegroups.com
 
 # 使用solarized配色方案
 source ~/.mutt/mutt-colors-solarized/mutt-colors-solarized-dark-256.muttrc
