@@ -9,9 +9,11 @@ set imap_pass = "yourpassword"
 
 # 设置远程服务器文件夹
 set folder = "imaps://imap.gmail.com:993"
-set spoolfile = "+INBOX"
-mailboxes = +INBOX
+set spoolfile = +INBOX
 set postponed = "+[Gmail]/Drafts"
+
+# 设置新邮件监视文件夹
+mailboxes = +INBOX
 
 # 允许mutt自动创建一个新的imap连接
 unset imap_passive
@@ -31,7 +33,7 @@ set certificate_file = /etc/ssl/certs/ca-certificates.crt
 
 # 设置smtp
 #set smtp_url = "smtp://ibrother.linux@gmail.com@smtp.gmail.com:587/"
-#set smtp_pass = "luohao1993223"
+#set smtp_pass = "yourpassword"
 #set ssl_starttls = yes
 
 # 使用msmtp
@@ -88,6 +90,12 @@ set edit_headers = no
 
 # pager显示行数
 set pager_index_lines = 4
+
+# 让vim知道mutt是mua
+set editor="vim -c 'set syntax=mail ft=mail'"
+
+# 只滚动一行而不是一页
+set menu_scroll = yes
 
 # 告知mutt哪些是邮件列表
 subscribe ustc_lug@googlegroups.com
