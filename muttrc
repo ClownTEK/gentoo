@@ -32,9 +32,8 @@ set message_cachedir = ~/.mutt/cache/bodies
 set certificate_file = /etc/ssl/certs/ca-certificates.crt
 
 # 设置smtp
-#set smtp_url = "smtp://ibrother.linux@gmail.com@smtp.gmail.com:587/"
+#set smtp_url = "smtps://ibrother.linux@gmail.com@smtp.gmail.com:465"
 #set smtp_pass = "yourpassword"
-#set ssl_starttls = yes
 
 # 使用msmtp
 set sendmail = "/usr/bin/msmtp"
