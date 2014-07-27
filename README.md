@@ -2,4 +2,4 @@
 
 for more info,access my [blog][1]!
 
-[1]: http://ibrother.github.io "ibrother’s blog"
+[1]: http://ibrother.me "ibrother’s blog"
