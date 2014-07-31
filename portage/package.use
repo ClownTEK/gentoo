@@ -6,3 +6,4 @@ mail-mta/msmtp sasl
 media-libs/freetype -bindist
 media-video/ffmpeg threads
 net-misc/networkmanager resolvconf
+sys-kernel/gentoo-sources experimental
