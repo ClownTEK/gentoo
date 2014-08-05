@@ -42,6 +42,7 @@ media-sound/mpd
 media-sound/ncmpcpp
 media-video/mplayer
 media-video/smplayer
+net-irc/irssi
 net-libs/nodejs
 net-misc/axel
 net-misc/dhcpcd
@@ -55,7 +56,7 @@ sys-fs/ntfs3g
 sys-kernel/genkernel-next
 sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
-sys-process/cronie
+sys-process/dcron
 www-client/google-chrome
 x11-base/xorg-server
 x11-themes/oxygen-gtk
