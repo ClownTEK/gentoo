@@ -1,4 +1,5 @@
 app-editors/emacs gtk sound toolkit-scroll-bars xft
+app-office/akonadi-server soprano
 app-text/ghostscript-gpl cups
 app-text/texlive-core xetex
 mail-client/mutt -berkdb gpg imap mbox sasl sidebar slang smime
