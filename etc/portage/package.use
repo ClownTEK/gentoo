@@ -4,7 +4,6 @@ app-text/ghostscript-gpl cups
 app-text/texlive-core xetex
 mail-client/mutt -berkdb gpg imap mbox sasl sidebar slang smime
 mail-mta/msmtp sasl
-media-libs/freetype -bindist
 media-video/ffmpeg threads
 net-misc/networkmanager resolvconf
 sys-kernel/gentoo-sources experimental
