@@ -1,14 +1,17 @@
-app-admin/rsyslog
+app-admin/logrotate
 app-admin/sudo
+app-editors/emacs
 app-editors/kile
 app-editors/vim
 app-i18n/fcitx
+app-i18n/fcitx-rime
 app-laptop/laptop-mode-tools
+app-office/calligra
 app-portage/eix
 app-portage/gentoolkit
 app-shells/bash-completion
+app-shells/gentoo-zsh-completions
 app-shells/zsh
-app-shells/zsh-completion
 dev-libs/cloog
 dev-libs/cloog-ppl
 dev-texlive/texlive-xetex
@@ -41,7 +44,6 @@ media-sound/alsa-utils
 media-sound/mpd
 media-sound/ncmpcpp
 media-video/mplayer
-media-video/smplayer
 net-irc/irssi
 net-libs/nodejs
 net-misc/axel
@@ -57,6 +59,7 @@ sys-kernel/genkernel-next
 sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
 sys-process/dcron
+www-apps/jekyll
 www-client/google-chrome
 x11-base/xorg-server
 x11-themes/oxygen-gtk
