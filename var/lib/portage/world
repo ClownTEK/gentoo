@@ -1,4 +1,3 @@
-app-admin/logrotate
 app-admin/sudo
 app-editors/emacs
 app-editors/kile
@@ -43,7 +42,7 @@ media-fonts/wqy-microhei
 media-sound/alsa-utils
 media-sound/mpd
 media-sound/ncmpcpp
-media-video/mplayer
+media-video/mpv
 net-irc/irssi
 net-libs/nodejs
 net-misc/axel
