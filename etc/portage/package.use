@@ -1,7 +1,9 @@
 app-editors/emacs gtk sound xft
 app-text/ghostscript-gpl cups
 app-text/texlive-core xetex
+kde-base/okular ebook
 mail-client/mutt -berkdb gpg imap mbox sasl sidebar slang smime
+media-libs/phonon gstreamer -vlc
 mail-mta/msmtp sasl
 media-video/ffmpeg threads
 net-misc/networkmanager resolvconf

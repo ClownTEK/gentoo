@@ -5,7 +5,6 @@ app-editors/vim
 app-i18n/fcitx
 app-i18n/fcitx-rime
 app-laptop/laptop-mode-tools
-app-office/calligra
 app-portage/eix
 app-portage/gentoolkit
 app-shells/bash-completion
@@ -26,6 +25,7 @@ kde-base/kdebase-cursors
 kde-base/kdebase-startkde
 kde-base/kdeplasma-addons
 kde-base/kdm
+kde-base/kgpg
 kde-base/kmix
 kde-base/konsole
 kde-base/ksnapshot
