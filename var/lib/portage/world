@@ -10,6 +10,7 @@ app-portage/gentoolkit
 app-shells/bash-completion
 app-shells/gentoo-zsh-completions
 app-shells/zsh
+app-text/calibre
 dev-libs/cloog
 dev-libs/cloog-ppl
 dev-texlive/texlive-xetex
@@ -18,7 +19,6 @@ dev-vcs/git
 kde-base/ark
 kde-base/dolphin
 kde-base/gwenview
-kde-base/kate
 kde-base/kde-base-artwork
 kde-base/kde-l10n
 kde-base/kdebase-cursors
@@ -37,6 +37,7 @@ kde-base/powerdevil
 kde-misc/plasma-nm
 mail-client/mutt
 mail-mta/msmtp
+media-fonts/dejavu
 media-fonts/inconsolata
 media-fonts/wqy-microhei
 media-sound/alsa-utils
@@ -48,6 +49,7 @@ net-libs/nodejs
 net-misc/axel
 net-misc/dhcpcd
 net-p2p/ktorrent
+net-proxy/shadowsocks-libev
 sys-apps/usbutils
 sys-block/zram-init
 sys-boot/grub
@@ -58,7 +60,7 @@ sys-kernel/genkernel-next
 sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
 sys-process/dcron
-www-apps/jekyll
 www-client/google-chrome
+www-servers/nginx
 x11-base/xorg-server
 x11-themes/oxygen-gtk
