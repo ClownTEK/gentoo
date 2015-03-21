@@ -1,10 +1,14 @@
+app-crypt/qca openssl
 app-editors/emacs gtk sound xft
 app-text/ghostscript-gpl cups
 app-text/texlive-core xetex
-kde-base/okular ebook
+=dev-lang/python-2.7.9-r1 sqlite
+kde-base/okular dpi ebook mobi
 mail-client/mutt -berkdb gpg imap mbox sasl sidebar slang smime
-media-libs/phonon gstreamer -vlc
 mail-mta/msmtp sasl
+media-libs/phonon gstreamer -vlc
+media-sound/mpd inotify mpg123
 media-video/ffmpeg threads
 net-misc/networkmanager resolvconf
 sys-kernel/gentoo-sources experimental
+www-servers/nginx aio
