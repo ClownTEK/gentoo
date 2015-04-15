@@ -1,8 +1,7 @@
-dev-libs/isl ~amd64
-dev-libs/cloog ~amd64
 dev-util/android-tools ~amd64
-kde-misc/plasma-nm ~amd64
-net-libs/libnm-qt ~amd64
+media-fonts/source-han-sans ~amd64
+media-libs/libmtp ~amd64
+media-video/mpv ~amd64
 net-proxy/shadowsocks-libev ~amd64
 sys-block/zram-init ~amd64
 www-client/google-chrome ~amd64

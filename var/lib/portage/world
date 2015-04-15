@@ -12,7 +12,6 @@ app-shells/gentoo-zsh-completions
 app-shells/zsh
 app-text/calibre
 dev-libs/cloog
-dev-libs/cloog-ppl
 dev-texlive/texlive-xetex
 dev-util/android-tools
 dev-vcs/git
@@ -39,6 +38,7 @@ mail-client/mutt
 mail-mta/msmtp
 media-fonts/dejavu
 media-fonts/inconsolata
+media-fonts/source-han-sans
 media-fonts/wqy-microhei
 media-sound/alsa-utils
 media-sound/mpd

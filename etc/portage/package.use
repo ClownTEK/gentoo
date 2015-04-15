@@ -6,7 +6,7 @@ app-text/texlive-core xetex
 kde-base/okular dpi ebook mobi
 mail-client/mutt -berkdb gpg imap mbox sasl sidebar slang smime
 mail-mta/msmtp sasl
-media-libs/phonon gstreamer -vlc
+media-libs/phonon designer gstreamer -vlc
 media-sound/mpd inotify mpg123
 media-video/ffmpeg threads
 net-misc/networkmanager resolvconf
